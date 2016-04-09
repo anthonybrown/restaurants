@@ -16,6 +16,22 @@
 
  */
 
+::selection {
+	background-color: #ff603d;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background-color: #ff603d;
+	color: #fff;
+	text-shadow: none;
+}
+
+
+.menu a {
+	color: #ff603d;
+}
+
 .menu a:hover {
 	color: #f7f7f7;
 }
@@ -30,7 +46,7 @@
 	line-height: 1;
 }
 	.top-bar-title strong a:hover {
-		color: #2199e8;
+		color: #ff603d;
 	}
 .menu-icon.light {
   position: relative;
