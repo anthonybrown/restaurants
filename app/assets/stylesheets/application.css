@@ -19,7 +19,10 @@
 	list-style: none;
 }
 .top-bar-title strong a {
+	display: inline-block;
 	color: #f7f7f7;
+	padding: 0.7rem 1rem;
+	line-height: 1;
 }
 .menu-icon.light {
   position: relative;
